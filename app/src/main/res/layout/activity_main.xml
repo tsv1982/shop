@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+
+    <TextView
+        android:id="@+id/rrr"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <ListView
+            android:id="@+id/LV_ShopLv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+        </ListView>
+
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/Tv_count_tw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="75dp"
+                android:text="0"
+                android:textSize="20dp"
+                android:visibility="invisible"
+                android:textColor="@color/colorBT"
+                />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="40dp"
+                android:backgroundTint="#F5F5F5"
+                android:src="@drawable/check" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="110dp"
+                android:backgroundTint="#F5F5F5"
+                android:src="@android:drawable/ic_input_add"
+                app:fabSize="mini" />
+
+            <TextView
+                android:id="@+id/text_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="75dp"
+                android:layout_marginBottom="120dp"
+                android:text="add"
+                android:textSize="20dp"
+                android:visibility="invisible"
+                android:textColor="@color/colorBT"
+                />
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="155dp"
+                android:backgroundTint="#F5F5F5"
+                android:src="@android:drawable/ic_delete"
+                app:fabSize="mini" />
+
+            <TextView
+                android:id="@+id/text_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="75dp"
+                android:layout_marginBottom="162dp"
+                android:text="delete"
+                android:textSize="20dp"
+                android:visibility="invisible"
+                android:textColor="@color/colorBT"
+                />
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="200dp"
+                android:backgroundTint="#F5F5F5"
+                android:src="@drawable/check"
+                app:fabSize="mini" />
+
+            <TextView
+                android:id="@+id/text_all_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="75dp"
+                android:layout_marginBottom="205dp"
+                android:text="отметить все"
+                android:textSize="20dp"
+                android:visibility="invisible"
+                android:textColor="@color/colorBT"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="245dp"
+                android:backgroundTint="#F5F5F5"
+                android:src="@drawable/korzina_black"
+                app:fabSize="mini" />
+
+            <TextView
+                android:id="@+id/text_korzina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="75dp"
+                android:layout_marginBottom="250dp"
+                android:text="корзина"
+                android:textSize="20dp"
+                android:visibility="invisible"
+                android:textColor="@color/colorBT"
+                />
+
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>
