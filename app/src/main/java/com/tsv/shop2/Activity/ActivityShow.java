@@ -21,6 +21,7 @@ import butterknife.ButterKnife;
 
 public class ActivityShow extends AppCompatActivity {
 
+
     @Inject
     Util util;
 
